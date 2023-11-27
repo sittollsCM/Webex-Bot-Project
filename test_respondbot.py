@@ -8,7 +8,7 @@ class Diana:
     name = "Diana Sarsembayeva"
     email = "dianasarsembaeva98@gmail.com"
 
-USER = Diana
+USER = Miras
 
 def test_bot_answering():
     messageID = Test.writeToChatToBot("Hello!")
