@@ -86,4 +86,4 @@ def bot_startup():
 # else:
 #     print("PROGRAM SHUTDOWN...")
 
-# bot_startup()
+bot_startup()
