@@ -1,4 +1,4 @@
-import test_RESPOND_bot as Test
+import RESPOND_bot as Test
 import time as Sleep
 
 class Miras:
