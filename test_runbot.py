@@ -1,7 +1,7 @@
 import RUN_bot
 import time as Sleep
 from webexteamssdk import WebexTeamsAPI
-
+# Get fresh private token - https://developer.webex.com/docs/getting-started
 PRIVATE_TOKEN = "ZDIyYzI2OWQtNWZmOC00MzFhLTlkOGQtNzBlNzBkZmEzNWNhYTJiNWEwYzAtOTVl_PE93_64bb227d-594d-4030-a56f-373e324be165"
 
 api = WebexTeamsAPI(
