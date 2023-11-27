@@ -2,13 +2,13 @@ from webexteamssdk import WebexTeamsAPI
 import datetime as DT
 import time as Sleep
 # Get fresh private token - https://developer.webex.com/docs/getting-started
-PRIVATE_TOKEN = "ZDIyYzI2OWQtNWZmOC00MzFhLTlkOGQtNzBlNzBkZmEzNWNhYTJiNWEwYzAtOTVl_PE93_64bb227d-594d-4030-a56f-373e324be165"
+PRIVATE_TOKEN = "ZDllOTdlZmEtNGU0NS00ZGYyLTljNjktZGNmZWVlMjEzNjU4MDc5OTQ4YWYtMGVl_PE93_64bb227d-594d-4030-a56f-373e324be165"
 PRIVATE_TOKEN1 = "NjRkMTY4MjgtNDk5OC00ZGNmLWEzOTQtZTMxYTJlOGVkMGZhMTljNTYwNDQtM2Yz_PE93_64bb227d-594d-4030-a56f-373e324be165"
 BOT_TOKEN = "ZDg5YWMzMjYtNWY3OC00YjA3LWI2NWUtMjBmMTIxOWQxZjIxMDQzZTNiZWYtNDE3_PE93_64bb227d-594d-4030-a56f-373e324be165"
 ORG_TOKEN = "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi82NGJiMjI3ZC01OTRkLTQwMzAtYTU2Zi0zNzNlMzI0YmUxNjU"
 
 api = WebexTeamsAPI(
-    access_token=PRIVATE_TOKEN1)
+    access_token=PRIVATE_TOKEN)
 
 roomName = "WEBEX organization environment"
 
