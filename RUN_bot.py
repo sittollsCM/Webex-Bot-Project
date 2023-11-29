@@ -54,8 +54,8 @@ class Server:
 
 
 def bot_startup():
-    try:
-        while(True):
+    while(True):
+        try:
             Server.clear_server()
 
             url = Server.connect_server()
@@ -74,8 +74,8 @@ def bot_startup():
             cmd = "npm start"
             Server.start_bot(cmd)
 
-    except (KeyboardInterrupt):
-        Server.shutdown_server()
+        except (KeyboardInterrupt):
+            Server.shutdown_server()
 
 # prompt = input("START THE BOT? - Y/N")
 # if ( prompt == "Yes" or prompt == "Y" or prompt == "y" or prompt == "start" ):
