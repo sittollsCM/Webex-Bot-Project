@@ -1,4 +1,3 @@
-import pytest
 import RUN_bot
 import time as Sleep
 from webexteamssdk import WebexTeamsAPI
@@ -8,7 +7,6 @@ PRIVATE_TOKEN = "MWNiMTdlNGUtNTljNS00NWI4LTk0OGMtN2I5ZGQ2MjQ0YTk4YWFhMDZkOTMtNzE
 api = WebexTeamsAPI(
     access_token=PRIVATE_TOKEN)
 
-@pytest.mark.filterwarnings("ignore:DeprecationWarning")
 def test_Server_Response():
     assert RUN_bot.Server.http_check_withPort("http://localhost:", 7001) == 200
 
