@@ -74,9 +74,6 @@ def bot_startup():
             cmd = "npm start"
             Server.start_bot(cmd)
 
-            # Shutdown instructions
-            res = input( "Server running...\n\nPress (Ctrl+C) to shutdown the server" )
-
     except (KeyboardInterrupt):
         Server.shutdown_server()
 
