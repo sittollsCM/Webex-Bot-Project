@@ -1,4 +1,3 @@
-import pytest
 import RESPOND_bot as Test
 import time as Sleep
 
@@ -11,7 +10,6 @@ class Diana:
 
 USER = Miras
 
-@pytest.mark.filterwarnings("ignore:DeprecationWarning")
 def test_bot_answering():
     messageID = Test.writeToChatToBot("Hello!")
     counter = 0
