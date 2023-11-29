@@ -10,6 +10,7 @@ class Diana:
 
 USER = Miras
 
+@pytest.mark.filterwarnings("ignore:DeprecationWarning")
 def test_bot_answering():
     messageID = Test.writeToChatToBot("Hello!")
     counter = 0
