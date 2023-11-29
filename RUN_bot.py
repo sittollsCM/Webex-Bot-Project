@@ -74,14 +74,6 @@ def bot_startup():
             cmd = "npm start"
             Server.start_bot(cmd)
 
-            loop = 0
-            interval = 100
-            while(loop < interval):
-                loop = loop + 1
-                if (loop == interval - 1): 
-                    print("Server is still alive..")
-                    loop = 0
-
         except (KeyboardInterrupt):
             Server.shutdown_server()
 
